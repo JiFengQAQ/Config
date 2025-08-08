@@ -1,0 +1,11 @@
+# external.yml
+enable_rule_generator: false
+overwrite_original_rules: false
+
+# 让 subconverter 以“模板”的方式渲染你自定义的 Clash base
+# 将此 URL 替换为你托管的 ClashforWindows.tpl.yaml 的 Raw 链接
+clash_rule_base: https://raw.githubusercontent.com/<你的仓库>/ClashforWindows.tpl.yaml
+
+# （可选）如果你不想在请求 URL 里带 sub_url，也可以在这里给默认值
+# template_args:
+#   sub_url: ""
